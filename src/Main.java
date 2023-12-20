@@ -11,8 +11,5 @@ public class Main {
         }
         Collections.sort(newList);
         System.out.println(newList);
-
-        StreamMain streamMain = new StreamMain();
-        streamMain.filtrIntList(intList).forEach(System.out::print);
     }
 }
